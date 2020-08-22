@@ -8,12 +8,14 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import NavBar from './components/NavBar.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    NavBar
+    NavBar,
+    Footer
   }
 }
 </script>
@@ -26,9 +28,11 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+$custom_danger : #fb3333;
+
 $theme-colors: (
         "primary": #3bbeff,
-        "danger": #fb3333
+        "danger": $custom_danger
 );
 @import '../node_modules/bootstrap/scss/bootstrap';
 @import '../node_modules/bootstrap-vue/src/index.scss';

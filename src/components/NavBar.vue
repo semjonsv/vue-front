@@ -1,6 +1,6 @@
 <template>
   <b-navbar type="light" class="shadow-sm">
-    <img class="ml-2 ml-sm-5" src="../assets/logo.png" alt="Logo" width="30px">
+    <img class="ml-2 ml-sm-5" src="../assets/logo2.png" alt="Logo" width="30px">
     <b-navbar-brand class="ml-1 d-none d-sm-block" tag="h1" href="#">
       Name
     </b-navbar-brand>
